@@ -1,16 +1,20 @@
-Vue.component('progress-bar', {
-  props: {},
-  template: `
-    <div class="progress">
-      <div class="progress-bar-incomplete"></div>
-      <div class="progress-bar-complete"></div>
-    </div>
-  `,
-});
-
 const app = new Vue({
   el: '#app',
   data: {
     message: '',
+  },
+  watch: {
+    message: function (val) {
+      const progressBar = this.$refs.progress;
+
+      // change it to change the limit
+      const maxValue = 10;
+
+      const valueLength = val.length;
+      const currentValue = (valueLength * 100) / maxValue;
+
+      if (currentValue <= 100)
+        return (progressBar.style.width = `${currentValue}%`);
+    },
   },
 });
