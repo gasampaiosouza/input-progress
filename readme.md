@@ -29,6 +29,6 @@ I made a simple _vue_ project. A basic bar that grows as you write in the input.
 - **Vue**
 - **Sass**
 
-## Thank you
+## 😃 Thank you
 
 That's my project, i hope you liked it, there's a bunch more coming! 💜
