@@ -2,7 +2,14 @@ $border-radius: 100px;
 $main: #84a9ac;
 $black: #204051;
 
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
   font-family: Fira Sans, sans-serif;
 }
 
@@ -44,10 +51,6 @@ body {
   &:focus,
   &:valid {
     background: #fff;
-  }
-
-  &[type='number'] {
-    width: 25%;
   }
 }
 
