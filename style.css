@@ -1,5 +1,1 @@
-.progress {
-  width: 250px;
-  background: red;
-  height: 20px;
-}
+body{font-family:Fira Sans, sans-serif}#app{width:90%;height:100vh;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.title{position:absolute;top:15px;left:50%;-webkit-transform:translate(-50%);transform:translate(-50%);width:100%;text-align:center;font-weight:900;color:#383e56}.input{border:none;outline:none;background:#fafafa;-webkit-transition:background 0.125s ease-in-out;transition:background 0.125s ease-in-out;-webkit-box-shadow:2px 2px 15px rgba(56,62,86,0.15);box-shadow:2px 2px 15px rgba(56,62,86,0.15);padding:25px;font-size:20px;border-radius:5px;width:75%}.input:focus,.input:valid{background:#fff}.input[type='number']{width:25%}.progress-bar{position:fixed;top:0;width:100%;height:10px}.progress-bar-incomplete{width:100%;height:100%}.progress-bar-complete{position:absolute;top:0;left:0;height:100%;-webkit-box-shadow:2px 2px 15px rgba(246,158,123,0.75);box-shadow:2px 2px 15px rgba(246,158,123,0.75);background:#f69e7b;-webkit-transition:width 0.3s ease-in-out;transition:width 0.3s ease-in-out}
