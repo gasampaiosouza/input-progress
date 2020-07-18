@@ -1,18 +1,10 @@
 $border-radius: 100px;
-// $main: #84a9ac;
-// $black: #204051;
-
-$main: #f69e7b;
-$black: #383e56;
+$main: #84a9ac;
+$black: #204051;
 
 body {
   font-family: Fira Sans, sans-serif;
 }
-
-// ::selection {
-//   background: $main;
-//   color: $black;
-// }
 
 #app {
   width: 90%;
