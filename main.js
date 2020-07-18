@@ -8,7 +8,7 @@ const app = new Vue({
       const progressBar = this.$refs.progress;
 
       // change it to change the limit
-      const maxValue = 10;
+      const maxValue = 50;
 
       const valueLength = val.length;
       const currentValue = (valueLength * 100) / maxValue;
