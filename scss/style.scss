@@ -1,0 +1,84 @@
+$border-radius: 100px;
+// $main: #84a9ac;
+// $black: #204051;
+
+$main: #f69e7b;
+$black: #383e56;
+
+body {
+  font-family: Fira Sans, sans-serif;
+}
+
+// ::selection {
+//   background: $main;
+//   color: $black;
+// }
+
+#app {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  text-align: center;
+
+  font-weight: 900;
+  color: $black;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background: #fafafa;
+  transition: background 0.125s ease-in-out;
+  box-shadow: 2px 2px 15px rgba($black, 0.15);
+  padding: 25px;
+  font-size: 20px;
+
+  border-radius: 5px;
+  width: 75%;
+
+  &:focus,
+  &:valid {
+    background: #fff;
+  }
+
+  &[type='number'] {
+    width: 25%;
+  }
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10px;
+
+  &-incomplete {
+    width: 100%;
+    height: 100%;
+  }
+
+  &-complete {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    box-shadow: 2px 2px 15px rgba($main, 0.75);
+
+    background: $main;
+
+    transition: width 0.3s ease-in-out;
+  }
+}
